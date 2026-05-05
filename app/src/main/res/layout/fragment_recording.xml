@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/floating_root"
+    tools:context=".FloatingFragment">
+
+
+    <ImageView
+        android:id="@+id/recordfloat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/record"
+        android:layout_gravity="end"/>
+
+
+</FrameLayout>

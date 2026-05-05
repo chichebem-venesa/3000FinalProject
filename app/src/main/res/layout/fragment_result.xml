@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ResultFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/circularProgressIndicator"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:indeterminate="false"
+            app:indicatorColor="#000000"
+            app:indicatorSize="70dp"
+            android:contentDescription="Refresh"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:trackThickness="10dp" />
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="100%"
+            android:textColor="#4CAF50"
+            android:textSize="18sp"
+            android:contentDescription="Refresh"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            app:layout_constraintBottom_toBottomOf="@+id/circularProgressIndicator"
+            app:layout_constraintEnd_toEndOf="@+id/circularProgressIndicator"
+            app:layout_constraintStart_toStartOf="@+id/circularProgressIndicator"
+            app:layout_constraintTop_toTopOf="@+id/circularProgressIndicator"
+            app:layout_constraintVertical_bias="0.444" />
+
+
+        <TextView
+            android:id="@+id/AI_REAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AI or REAL"
+            android:textFontWeight="900"
+            android:textSize="24sp"
+            android:contentDescription="Refresh"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            app:layout_constraintBottom_toTopOf="@+id/circularProgressIndicator"
+            app:layout_constraintEnd_toEndOf="@+id/circularProgressIndicator"
+            app:layout_constraintStart_toStartOf="@+id/circularProgressIndicator" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

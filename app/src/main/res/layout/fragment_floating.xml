@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/floating_root"
+    tools:context=".FloatingFragment">
+
+<!---
+        <ImageView
+            android:id="@+id/recordfloat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/record"
+            android:layout_gravity="end"/>
+
+
+    <RelativeLayout
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        tools:context=".ResultFragment">
+
+
+
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/circularProgressIndicator"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:indeterminate="false"
+            app:indicatorColor="#000000"
+            app:indicatorSize="50dp"
+            app:trackColor="#4CAF50"
+            app:trackThickness="15dp" />
+
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/circularProgressIndicator"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="20dp"
+            android:text="100%"
+            android:textColor="#4CAF50"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+-->
+
+</FrameLayout>
